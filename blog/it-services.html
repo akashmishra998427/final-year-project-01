@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Services</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../front-assets/css/css.css">
+    <link rel="stylesheet" href="../front-assets/css/responsive.css">
+    <link rel="stylesheet" href="../front-assets/css/style.css">
+    <!-- fav-icon -->
+    <link rel="icon" type="image/x-icon" href="../front-assets/img/fav-icon.svg">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+    <!-- top-btn -->
+    <button type="button" onclick="topFunction()" id="top-btn" class="btn top-btn" style="visibility: hidden;"><i
+            class="fa fa-arrow-up"></i></button>
+    <!-- let's talks -->
+    <div class="talks-btn"><a href="../contact-us.html"><img src="../front-assets/img/talks.jpg" alt="Let's talk"></a>
+    </div>
+    <!-- navbar -->
+    <div class="app-navbar">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-md-8 d-md-block d-none">
+                        <div class="top-left-links">
+                            <ul>
+                                <li><a href="../about-us.html">About us</a></li>
+                                <li><a href="../blog.html">Blog</a></li>
+                                <li><a href="../news-event.html">News &amp; Events</a></li>
+                                <li><a href="../contact-us.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-4">
+                        <div class="navbar-btns">
+                            <a href="https://uat.vcqru.com/CodeCheck.aspx"
+                                class="nav-link bg-success text-white px-3 d-lg-none d-block">Verify Coupon</a>
+                            <a href="https://uat.vcqru.com/CodeCheck.aspx" class="btn btn-light" target="_blank"><i
+                                    class="fa fa-user"></i><span class="d-lg-block d-none">Login/Signup</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../front-assets/img/vcqru-logo.png" alt="VCQRU Logo"></a>
+                    <a href="https://nikoltnutrition.com/authenticate/" class="other-check btn btn-sm"
+                        target="_blank">Check here Nikolt Coupon</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                                <ul class="dropdown-menu">
+                                    <div class="container">
+                                        <div class="sub-menu">
+                                            <div
+                                                class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-1 g-3">
+                                                <div class="col d-flex"><a href="../anti-counterfeiting-solutions.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/anti-counterfeit.svg"
+                                                            alt="Anti-Counterfeit">Anti-Counterfeit</a></div>
+                                                <div class="col d-flex"><a href="../cash-transfer-system.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/cash-transfer.svg"
+                                                            alt="Cash Transfer">Cash Transfer</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../digital-e-warranty-management-solution.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/e-warranty.svg"
+                                                            alt="E- Warranty">E- Warranty</a></div>
+                                                <div class="col d-flex"><a href="../customer-loyalty-program.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/build-loyalty.svg"
+                                                            alt="Build Loyalty">Build Loyalty</a></div>
+                                                <div class="col d-flex"><a href="../smart-labels-qr-code.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/smart-labels.svg"
+                                                            alt="Smart Labels">Smart Labels</a></div>
+                                                <div class="col d-flex"><a href="../gift-coupon.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/gift-coupon.svg"
+                                                            alt="Gift Coupon">Gift Coupon</a></div>
+                                                <div class="col d-flex"><a href="../customer-referral-program.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/referral-services.svg"
+                                                            alt="Referral Services">Referral Services</a></div>
+                                                <div class="col d-flex"><a href="../track-and-trace-solutions.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/track-trace.svg"
+                                                            alt="Track &amp; Trace">Track &amp; Trace</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../website-design-and-development-company.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/website-design-development.svg"
+                                                            alt="Web Development">Web Development</a></div>
+                                                <div class="col d-flex"><a href="../https://digitalmarketing.vcqru.com/"
+                                                        target="_blank" class="dropdown-item"><img
+                                                            src="../front-assets/img/product-icons/digital-marketing.svg"
+                                                            alt="Digital Marketing">Digital Marketing</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+                                <ul class="dropdown-menu">
+                                    <div class="container">
+                                        <div class="sub-menu">
+                                            <div
+                                                class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-4 row-cols-md-2 row-cols-1 g-3">
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-fmcg-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/FMCG.svg"
+                                                            alt="FMCG">FMCG</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-anti-counterfeit-solutions-for-cosmetic-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/cosmetics.svg"
+                                                            alt="Cosmetics">Cosmetics</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-consumer-electronics-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/consumer-electronics.svg"
+                                                            alt="Consumer">Consumer Electronics</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeiting-solutions-for-auto-parts-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/auto-parts.svg"
+                                                            alt="Auto Parts">Auto Parts</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-health-supplements-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/health-supplements.svg"
+                                                            alt="Health Supplements">Health Supplements</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-agro-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/agro.svg"
+                                                            alt="Agro">Agro</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-tobacco-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/tobacco.svg"
+                                                            alt="Tobacco">Tobacco</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-liquor-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/liquor.svg"
+                                                            alt="Liquor">Liquor</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-bfsi-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/bfsi.svg"
+                                                            alt="anti-counterfeit-solution-for-bfsi-industry">BFSI</a>
+                                                </div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-consumer-electronics-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/electronic-electricals.svg"
+                                                            alt="Electronics &amp; Electricals">Electronics &amp;
+                                                        Electricals</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solution-for-ecommerce-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/ecommerce.svg"
+                                                            alt="E-Commerce">E-Commerce</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-education-and-stationery-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/education-stationery.svg"
+                                                            alt="education">Education &amp; Stationery</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../brand-protection-solutions-for-sports-fitness-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/sports-fitness.svg"
+                                                            alt="Sports and Fitness">Sports &amp; Fitness</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-apparel-and-fashion-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/apparels-fashion.svg"
+                                                            alt="Apparels &amp; Fashion">Apparels &amp; Fashion</a>
+                                                </div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeiting-solutions-for-government-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/government.svg"
+                                                            alt="Government">Government</a></div>
+                                                <div class="col d-flex"><a
+                                                        href="../anti-counterfeit-solutions-for-pharma-industry.html"
+                                                        class="dropdown-item"><img
+                                                            src="../front-assets/img/industry-icon/pharma.svg"
+                                                            alt="Pharma">Pharma</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="../our-media.html">Media</a></li>
+                            <li class="nav-item d-lg-block d-none"><a class="nav-link bg-success text-white px-3"
+                                    href="https://www.vcqru.com/CodeCheck.aspx">Verify Coupon</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- navbar-end -->
+    <!-- blog read -->
+    <section class="blog-details">
+        <div class="container">
+            <div class="app-breadcrumb">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="../blog.html">Blogs</a></li>
+                        <li class="breadcrumb-item active text-transform-unset" aria-current="page">Does your IT services company have diversity and inclusion
+                            initiatives
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="row g-4">
+                <div class="col-xxl-8 col-xl-8 col-lg-8">
+                    <div class="card">
+                        <div class="card-body p-5">
+                            <h3 class="card-title">Does your IT services company have diversity and inclusion
+                                initiatives ?</h3>
+                            <span class="blog-date">10 January, 2024</span>
+                            <img src="../front-assets/img/blog/vcqru_post-1.jpg" alt="Blog Img">
+                            <p class="card-text">It is very difficult to represent a specific company, but many IT
+                                services companies have various initiatives to foster diversity and inclusivity.
+                                I can provide you with a list of common diversity and inclusivity initiatives that
+                                many companies in the IT industry adopt. Keep in mind that the actual initiatives
+                                may vary based on the company's size, location and industry. Here are some common
+                                initiatives:</p>
+
+                            <li> <span> Diversity Training:</span></li>
+                            <p class="card-text">Conducting workshops and training programs to raise awareness about
+                                diversity and inclusion issues. Diversity training, also known as integration
+                                training
+                                or cultural competence training, is a process designed to educate employees about
+                                the importance of diversity and inclusion in the workplace. The purpose of diversity
+                                training
+                                are to increase awareness, transparency, reduce prejudice and stereotypes and
+                                promote an inclusive work environment.</p>
+                            <li> <span> Employee Resource Groups (ERGs):</span></li>
+                            <p class="card-text">Establishing ERGs to provide a supportive community for employees
+                                who share common characteristics, such as gender, ethnicity, or sexual orientation.
+                                Employee
+                                Resource Groups (ERGs) also known as affinity groups or employee networks, are
+                                voluntary, employee-led organizations within a company that include individuals with
+                                similar interests,
+                                backgrounds, or characteristics. The primary purpose of ERGs is to create a
+                                supportive and inclusive workplace by fostering a sense of community, promoting
+                                diversity, and addressing the
+                                unique needs and concerns of specific groups.</p>
+                            <li><span>Diverse Hiring Practices:</span></li>
+                            <p class="card-text"> Implementing diverse hiring practices to ensure a fair
+                                representation of different backgrounds in the recruitment process. Diverse
+                                recruitment practices are strategies and
+                                tasks that organizations use to attract, recruit, and retain diverse employees. The
+                                goal is to ensure that the recruitment process is inclusive and provides equal
+                                opportunities for individuals
+                                from various backgrounds.</p>
+                            <li><span>Mentorship and Sponsorship Programs:</span></li>
+                            <p class="card-text"> Offer mentoring programs to help underrepresented employees
+                                advance in their careers. Sponsorship programs recommend employees at the highest
+                                levels of the organization.
+                                Counseling and support programs are services designed to support the professional
+                                development and growth of employees within an organization.</p>
+                            <li><span>Flexible Work Policies:</span></li>
+                            <p class="card-text"> Introducing a flexible work schedule to meet needs and promote
+                                work life balance. Flexible work policies refers to organizational practices that
+                                give employees greater control
+                                over when, where, and how they work. These policies aim to provide a work
+                                environment that accommodates diverse needs and aspirations, promotes work-life
+                                balance and supports employee well-being.</p>
+                            <li><span>Inclusive Leadership Training:</span></li>
+                            <p class="card-text"> Providing leadership training to promote inclusive leadership
+                                behaviors and practices. Inclusive leadership training is designed to equip leaders
+                                and managers with the knowledge, skills,
+                                and attitudes necessary to create and maintain an inclusive workplace environment.
+                                Inclusive leadership fosters a culture that values, embraces difference , and
+                                ensures that every person is welcomed, valued
+                                and empowered to express their best emotions.</p>
+                            <li><span>Regular Diversity and Inclusion Assessments:</span></li>
+                            <p class="card-text"> Conducting regularly analyzes various features and integration
+                                processes to measure effectiveness and identify areas for improvement. Regular
+                                diversity and inclusion assessments are important
+                                tools for organizations to evaluate the effectiveness of their diversity and
+                                inclusion (D&I) programs, identify areas for improvement, and ensure continuous
+                                improvement. These assessments involve systematic reviews
+                                of organizational policies, practices and cultures related to diversity and
+                                inclusion.</p>
+                            <li><span>Equal Pay Audits:</span></li>
+                            <p class="card-text"> Ensuring that there are no gender or ethnicity-based pay gaps
+                                through regular audits. An equal pay audit is a comprehensive audit conducted by
+                                organizations to monitor and ensure that there is no gender
+                                or other discrimination in pay structures. The primary objective of equal pay
+                                auditing is to identify and resolve any pay gap between employees performing the
+                                same job or occupation of equal value, regardless of gender or
+                                other protected characteristics</p>
+                            <li><span>Promotion of Diversity in Leadership :</span></li>
+                            <p class="card-text"> Actively working towards having a diverse representation in
+                                leadership positions. Encouraging diversity in leadership includes intentional
+                                efforts to increase representation from various backgrounds and
+                                underrepresented groups in leadership positions within an organization. Diverse
+                                leadership not only fosters a more inclusive and equitable workplace but also
+                                contributes to better decision-making and innovation.</p>
+                            <li><span>Community Outreach and Partnerships:</span></li>
+                            <p class="card-text"> Engaging with external organizations and communities to support
+                                diversity and inclusion initiatives. Community outreach and engagement play a key
+                                role in an organization’s efforts to enhance diversity and inclusion,
+                                enhance corporate social responsibility, and build positive relationships with the
+                                broader community. Engaging with external communities demonstrates a commitment to
+                                social impact and can contribute to inclusiveness and a socially
+                                responsible corporate image.</p>
+                            <li><span>Accessibility Initiatives:</span></li>
+                            <p class="card-text"> Ensuring that workplace facilities, digital platforms, and
+                                communication materials are accessible to all employees. Accessibility policies are
+                                the strategies and efforts that organizations implement to ensure that their
+                                products,
+                                services, physical spaces and digital resources are inclusive and accessible to
+                                individuals with different abilities and disabilities. These initiatives aim to
+                                create an environment where everyone, regardless of their abilities, can fully
+                                participate and engage.</p>
+                            <li><span>Inclusive Benefits:</span></li>
+                            <p class="card-text"> Offering benefits that cater to a diverse range of employee needs,
+                                such as family support, mental health services, etc. Inclusive benefits refers to
+                                employee benefits designed to meet the diverse needs of employees, recognizing and
+                                accommodating the unique
+                                characteristics and needs of diverse individuals. These benefits aim to create a
+                                more inclusive and supportive workplace environment.</p>
+
+                            <p class="card-text"> Remember that the effectiveness of these projects depends on the
+                                commitment of the company’s leadership and the active participation of employees at
+                                all levels. It’s always a good idea to check with your company’s HR department or
+                                government contacts for the most accurate and up-to-date information on specific
+                                initiatives.</p>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4 col-lg-4">
+                    <div class="left-blog-details">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Follow Us On</h5>
+                                <ul class="follow-us-icons">
+                                    <li>
+                                        <a href="https://www.facebook.com/vcqru/" target="_blank">
+                                            <i class="fa-brands fa-square-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/vcqru-wesecureyou/" target="_blank">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/vcqru_wesecureyou/" target="_blank">
+                                            <i class="fa-brands fa-square-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/Vcqru_Official" target="_blank">
+                                            <i class="fa-brands fa-square-x-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Get in touch with our experts.</h5>
+                                <p class="card-text">For any queries feel free to contact us and our expert support
+                                    team
+                                    will get back to you as soon as possible!</p>
+                                <img src="../front-assets/img/blog-contact-us.png" alt="Contact us img">
+                                <div class="text-center">
+                                    <a href="../contact-us.html" class="btn btn-primary btn-sm px-5">contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Industry Usecases</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a href="../anti-counterfeit-solution-for-fmcg-industry.html">FMCG</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a
+                                            href="../anti-counterfeit-solution-for-ecommerce-industry.html">E-Commerce</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="../anti-counterfeit-solutions-for-apparel-and-fashion-industry.html">Apparels
+                                            & Fashion</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="../anti-counterfeit-solution-for-consumer-electronics-industry.html">Electronics
+                                            & Electricals</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="../anti-counterfeit-solution-for-consumer-electronics-industry.html">Consumer
+                                            Electronics</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog read end -->
+    <!-- like -->
+    <section class="our-blog-listing">
+        <div class="container">
+            <div class="web-heading">
+                <h1>Explore other blogs</h1>
+            </div>
+            <div
+                class="row row-cols-xxl-3 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 g-xl-5 g-lg-4 g-md-4 g-3">
+                <div class="col d-flex">
+                    <div class="card">
+                        <div class="blog-img">
+                            <a href="warrenty-blog.html">
+                                <img src="../front-assets/img/blog/blog-post-banner.jpg" class="card-img-top"
+                                    alt="Blog post img">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="warrenty-blog.html">
+                                    Online Marketing Strategy- What & How?
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                A unique online presence is a key factor for magnified business growth. In today’s
+                                era
+                                where 85% of the population uses social media, your brand, and your business must be
+                                able to connect with your target audience in no time. Online marketing strategy is
+                                referred to advertising delivered through digital channels to promote brands and
+                                connect
+                                potential customers using the internet and other forms of digital communication.
+                            </p>
+                            <span>April 10, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div class="card">
+                        <div class="blog-img">
+                            <a href="strategies-blog.html">
+                                <img src="../front-assets/img/blog/effective-loyalty-program-strategies.jpg"
+                                    class="card-img-top" alt="Blog post img">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="strategies-blog.html">
+                                    Retain Your Customers by Effective Loyalty Program Strategies
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                You may need to provide clients a cause to keep buying from you on occasion,
+                                stirring
+                                your pot of profits. Businesses provide special discounts to clients who make
+                                frequent
+                                purchases in order to promote customer loyalty. This well-executed art is known as a
+                                loyalty programme.
+                            </p>
+                            <span>Mar 15, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div class="card">
+                        <div class="blog-img">
+                            <a href="customer-retention.html">
+                                <img src="../front-assets/img/blog/loyalty-program.jpg" class="card-img-top"
+                                    alt="Blog post img">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="customer-retention.html">
+                                    How VCQRU Effective Loyalty Program Can Help You in Customer Retention?
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                Pipeline Construction is a dynamic industry that continues to grow and
+                            </p>
+                            <span>SEPTEMBER 26, 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Our Newsletter -->
+    <section class="subscribe" id="subscribe"></section>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row g-xl-4 g-lg-3 g-md-3 g-3">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <h6>Get in Touch With VCQRU</h6>
+                        <p>Welcome to VCQRU, your trusted partner for protecting your brand from the risks of
+                            counterfeiting and duplication.</p>
+                        <ul class="address">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Unit: 1502-3, 15th Floor, Tower-4, DLF Corporate Greens, Sector-74A, Gurgaon,
+                                Haryana -
+                                122004.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <a href="tel:1245181074">+91-124 5181074</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:sales@vcqru.com" class="text-lowercase">sales@vcqru.com</a>
+                            </li>
+                        </ul>
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/vcqru/" target="_blank" title="Facebook">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/vcqru-wesecureyou/" target="_blank"
+                                        title="Linkedin">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/vcqru_wesecureyou/" target="_blank"
+                                        title="Instagram">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Vcqru_Official" target="_blank" title="Twitter">
+                                        <i class="fa-brands fa-square-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <h6>Business Solutions</h6>
+                        <ul>
+                            <li>
+                                <a href="./anti-counterfeiting-solutions.html">Anti-Counterfeit</a>
+                            </li>
+                            <li>
+                                <a href="../customer-loyalty-program.html">Build Loyalty</a>
+                            </li>
+                            <li>
+                                <a href="../cash-transfer-system.html">Cash Transfer</a>
+                            </li>
+                            <li>
+                                <a href="https://digitalmarketing.vcqru.com/" target="_blank">Digital
+                                    Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../gift-coupon.html">Gift Coupon</a>
+                            </li>
+
+                            <li>
+                                <a href="../customer-referral-program.html">Referral Services</a>
+                            </li>
+                            <li>
+                                <a href="../track-and-trace-solutions.html">Track & Trace</a>
+                            </li>
+                            <li>
+                                <a href="../website-design-and-development-company.html">Website Design &
+                                    Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <h6>Industries We Cover</h6>
+                        <ul>
+                            <li>
+                                <a href="../anti-counterfeit-solution-for-fmcg-industry.html">FMCG</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solutions-for-cosmetic-industry.html">Cosmetic
+                                    Industry</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solution-for-consumer-electronics-industry.html">Consumer
+                                    Electronics</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeiting-solutions-for-auto-parts-industry.html">Auto
+                                    Parts</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solution-for-health-supplements-industry.html">Health
+                                    Supplements</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solutions-for-agro-industry.html">Agro</a>
+                            </li>
+                            <li>
+                                <a href="../packaging">Packaging</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solution-for-tobacco-industry.html">Tobacco</a>
+                            </li>
+                            <li>
+                                <a href="../anti-counterfeit-solutions-for-liquor-industry.html">Liquor</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <li>
+                                <a href="../about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="../blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../news-event.html">News & Events</a>
+                            </li>
+                            <li>
+                                <a href="../blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../terms-conditions.html">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a href="../career.html">Career</a>
+                            </li>
+                            <li>
+                                <a href="../privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="../https://www.vcqru.com/CodeCheck.aspx" target="_blank">Verify Coupon</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center mb-0">© Copyright 2024 VCQRU Private Limited | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- js -->
+    <script src="../front-assets/js/index.js"></script>
+    <script src="../shared/subscribe.js"></script>
+    <!-- top-btn-js -->
+    <script>
+        var mybutton = document.getElementById("top-btn"); function scrollFunction() { document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? mybutton.style.visibility = "visible" : mybutton.style.visibility = "hidden" } function topFunction() { document.body.scrollTop = 0, document.documentElement.scrollTop = 0 } window.onscroll = function () { scrollFunction() };
+    </script>
+    <!-- Loader-js -->
+    <script>
+        // window-loader
+        document.addEventListener("DOMContentLoaded", function () {
+            // Hide the loader once the page has finished loading
+            var loader = document.getElementById("loader-wrapper");
+            loader.style.visibility = "hidden";
+        });
+    </script>
+    <!-- end -->
+
+</body>
+
+</html>

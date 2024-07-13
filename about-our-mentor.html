@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Mentor | VCQRU</title>
+    <!-- css -->
+    <link rel="stylesheet" href="front-assets/css/css.css">
+    <link rel="stylesheet" href="front-assets/css/responsive.css">
+    <link rel="stylesheet" href="front-assets/css/style.css">
+    <!-- fav-icon -->
+    <link rel="icon" type="image/x-icon" href="front-assets/img/fav-icon.svg">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- fix-items -->
+    <div id="fixItems"></div>
+    <!-- loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+    <!--  -->
+    <!-- navbar -->
+    <div class="app-navbar" id="appHeader"></div>
+    <!-- navbar-end -->
+    <section class="vcqru-content">
+        <div class="container">
+            <!-- breadcrumb -->
+            <div class="app-breadcrumb">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About Our Mentor</li>
+                    </ol>
+                </nav>
+            </div>
+            <!-- breadcrumb-end -->
+            <div class="card">
+                <div class="card-body p-4">
+                    <div class="float-lg-start">
+                        <img src="https://qa.vcqru.com/assets/images/mentor-img.png" alt="About Our Mentor"
+                            class="w-100 pe-lg-3 pb-lg-0  pb-3">
+                    </div>
+                    <div>
+                        <h1 class="card-title">About Our Mentor</h1>
+                        <p class="card-text">Mr Ajay Saxena has a multi-dimensional career spanning over 28 years
+                            ranging
+                            from women Empowerment, rural development to Infrastructure on variety of Polices and
+                            Projects.
+                            He is a Post Graduate in Economics with specialization in Econometrics, Financial
+                            Management
+                            from IIMK and an MBA, a Law and Science Graduate.</p>
+                        <p class="card-text">He has more than 28 years of rich professional experience in diverse
+                            fields. He has
+                            served as
+                            full time Public Private Partnership Expert from Asian Development Bank (ADB) to
+                            Government of
+                            Maharashtra for 8 years. Currently, he is assisting many Central and Maharashtra
+                            Government
+                            Agencies as Expert on PPP and non-PPP Procurement and Financing of projects and plans.
+                            He is
+                            also an advisor to National Investment and Infrastructure Fund Limited (NIIFL).</p>
+                        <p class="card-text">He has facilitated the development of some of India’s key
+                            infrastructure development projects with departments such as Finance, Public Works
+                            Department, city centric corporations, Mumbai Port Trusts, Mumbai Metro Rail Company and
+                            Regional Development Authorities. He is an expert member (on PPP) on various committees
+                            of the Government, Government Agencies and Local Bodies in Maharashtra. He has been
+                            included as PPP Expert in National Task Force (NTF) on 24xT Water Supply to disseminate
+                            knowledge and extend handholding support to States/UTs and Cities in implementing 24x7
+                            water Supply projects under AMRUT 2.0</p>
+                        <p class="card-text">He has successfully contributed towards resolving disputes between
+                            concessioning authorities and concessionaires including SEZ, Hospital, Street Lights.
+                        </p>
+                        <p class="card-text">During his hard-core PPP professional tenure of over 20 years working
+                            with ADB, Government and private sector entities in different capacities, he has worked
+                            on PPP Policy development, Toll Policy, Procurement Policy, PPP Toolkits for water, SWM,
+                            roads, health education and transport and Project Structuring. His professional
+                            contributions at different stages of Projects, have resulted in decision making of over
+                            100 projects with a valuation of over INR 75,000 crores. Major Projects which he has
+                            contributed are Navi Mumbai International Airport, Diagnostic Centers in Maharashtra,
+                            Energy Saving Street lights in Pune, MTDC Properties at various locations in
+                            Maharashtra. He has successfully contributed towards India’s first Hyperloop project
+                            discussion as a PPP Expert as part of Government of Maharashtra committee.</p>
+                        <p class="card-text">Earlier to this, he has worked on a World Bank Project to reclaim Sodic
+                            Land in Uttar Pradesh as Head of Monitoring & Evaluation and was also the Project
+                            Director for two World Bank and IFAD funded Projects viz. "Swashakti" Project - A
+                            project for women Empowerment implemented under 17 districts of Uttar Pradesh and
+                            "SAWERA - Sustainable Agriculture for Women Empowerment in Rural Areas (UP).</p>
+                        <p class="card-text">He headed an Independent Profit Center as Head Portals managing 42
+                            Portals which also involved successful development of the CBIS to analyze the data and
+                            monitor the users’ behavior & requirements on the sites and developed effective feedback
+                            system. He was also one among three who conceived and managed India's no. 1 Map website
+                            –www.mapsofindia.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Our Newsletter -->
+    <section class="subscribe" id="subscribe"></section>
+    <!-- footer -->
+    <footer id="footer"></footer>
+    <!-- js -->
+    <script src="front-assets/js/index.js"></script>
+    <script src="shared/subscribe.js"></script>
+    <script src="shared/fix-items.js"></script>
+    <script src="shared/header.js"></script>
+    <script src="shared/footer.js"></script>
+    <!-- Loader-js -->
+    <script>
+        // window-loader
+        document.addEventListener("DOMContentLoaded", function () {
+            // Hide the loader once the page has finished loading
+            var loader = document.getElementById("loader-wrapper");
+            loader.style.visibility = "hidden";
+        });
+    </script>
+    <!-- end -->
+</body>
+
+</html>
